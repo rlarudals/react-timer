@@ -1,0 +1,56 @@
+.timerBox {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.timerBox .timerBox__time {
+  width: 100%;
+  height: 40vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.timerBox .timerBox__time span {
+  font-size: 72px;
+  text-shadow: 2px 3px 7px rgb(rgb(97, 84, 84));
+}
+
+.timerBox .timerBox__record {
+  width: 100%;
+  height: 30vh;
+  background-color: palevioletred;
+  border-radius: 5px 0px;
+  box-shadow: 2px 1px 7px;
+  overflow-y: scroll;
+}
+
+.timerBox .timerBox__btn {
+  width: 100%;
+  height: 30vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.timerBox .timerBox__btn input {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+
+  width: 90px;
+  background-color: #a12828;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
